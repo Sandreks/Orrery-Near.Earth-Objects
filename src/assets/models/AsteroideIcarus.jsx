@@ -2,7 +2,7 @@
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Carus(props) {
+export function AsteroideIcarus(props) {
   const { nodes, materials } = useGLTF('/public/models/AsteroideIcarus.gltf')
   return (
     <group {...props} dispose={null}>

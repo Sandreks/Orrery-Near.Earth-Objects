@@ -15,7 +15,7 @@ function App() {
       </div>
 
       {/* Controles interactivos */}
-      <Controls />
+      {/* <Controls /> */}
     </div>
   );
 }
