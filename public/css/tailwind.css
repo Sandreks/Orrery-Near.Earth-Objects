@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Estilos personalizados en TailwindCSS */
+.absolute {
+    position: absolute;
+  }
+  .relative {
+    position: relative;
+  }
+  .w-full {
+    width: 100%;
+  }
+  .h-full {
+    height: 100%;
+  }
+  .bg-gray-900 {
+    background-color: #1a1a1a;
+  }
+  .bg-opacity-80 {
+    background-opacity: 0.8;
+  }
+  .p-6 {
+    padding: 1.5rem;
+  }
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  .text-white {
+    color: #ffffff;
+  }
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  .font-bold {
+    font-weight: 700;
+  }
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  .text-blue-500 {
+    color: #3b82f6;
+  }
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }
+  
